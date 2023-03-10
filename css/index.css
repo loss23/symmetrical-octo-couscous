@@ -1,3 +1,37 @@
-Body {
-    background-color: rgba(20, 20, 20, 0.726);
+body {
+    overflow: hidden;
+
+    background-color: rgb(0, 0, 0);
+    background-image: url("../src/bckg.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0vw;
+    background-attachment: scroll;
+    background-position-y: 2vw;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vw;
+    color: rgba(142, 32, 167, 0.721);
+
+    text-align: center;
+}
+
+.Navbar {
+    background-color: rgb(19, 19, 19);
+    position: relative;
+    top: -3vw;
+    right: 0vw;
+    left: -.6vw;
+    width: 100vw;
+}
+
+.div1 {
+    position: relative;
+    text-align: center;
+    top: -5vw;
+}
+.div1_b {
+    position: relative;
+    text-align: center;
+    top: -4vw;
 }
