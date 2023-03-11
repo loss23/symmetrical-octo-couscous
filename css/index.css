@@ -19,10 +19,23 @@ body {
 .Navbar {
     background-color: rgb(19, 19, 19);
     position: relative;
-    top: -3vw;
+    font-size: 1.5vw;
+    top: -2.5vw;
     right: 0vw;
     left: -.6vw;
     width: 100vw;
+
+    display: inline-flex;
+    justify-content: center;
+    padding: 1;
+    list-style-type: none;
+    list-style: none;
+}
+
+.Navbar ul {
+    position: relative;
+    display: grid;
+    gap: 1.2vw 1.2vw;
 }
 
 .div1 {
